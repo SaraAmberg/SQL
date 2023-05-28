@@ -1,0 +1,28 @@
+CREATE TABLE Students (id INTEGER PRIMARY KEY, First_Name TEXT, Last_Name TEXT, Grade INTEGER, City TEXT, State TEXT);
+
+INSERT into Students VALUES (1, "Brooke", "Bush", 4, "Dubuque", "Iowa");
+INSERT into Students VALUES (2, "Kiley", "Bofelli", 4, "Dubuque", "Iowa");
+INSERT into Students VALUES (3, "Justin", "Adams", 5, "East_Dubuque", "Illinois");
+INSERT into Students VALUES (4, "Dennis", "Fry", 3, "Dubuque", "Iowa");
+INSERT into Students VALUES (5, "Megan", "Thies", 6, "East_Dubuque", "Illinois");
+INSERT into Students VALUES (6, "Josh", "Decker", 4, "Epworth", "Iowa");
+INSERT into Students VALUES (7, "Lynn", "Nagel", 3, "Dubuque", "Iowa");
+INSERT into Students VALUES (8, "Nick", "Jones", 3, "Peosta", "Iowa");
+INSERT into Students VALUES (9, "Rich", "Johnston", 5, "Dubuque", "Iowa");
+INSERT into Students VALUES (10, "Molly", "Cruz", 4, "Dubuque", "Iowa");
+INSERT into Students VALUES (11, "Nick", "Huseman", 4, "Dubuque", "Iowa");
+INSERT into Students VALUES (12, "Jeff", "Ryan", 6, "Dubuque", "Iowa");
+INSERT into Students VALUES (13, "Sherry", "Peterson", 5, "Dickeyville", "Wisconsin");
+INSERT into Students VALUES (14, "Ivy", "McPherson", 6, "Potosi", "Wisconsin");
+INSERT into Students VALUES (15, "Ava", "Ramsey", 4, "Dubuque", "Iowa");
+
+SELECT * from Students;
+
+SELECT * from Students ORDER BY Grade;
+
+SELECT * from Students WHERE Grade >4 ORDER BY Grade asc;
+
+SELECT * from Students ORDER BY State;
+
+I have created a Student List in a table, including first and last name, Grade, City, and State. 
+From there, I have sorted it by Grade and then filtered out Grade 4 and under. Then sorted data by State. 
